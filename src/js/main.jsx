@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 
+
 //Bootstrap
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap"
@@ -14,6 +15,5 @@ import {Contador} from './components/Contador';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <>
     <Home/>
-    <Contador/>
   </>,
 )
